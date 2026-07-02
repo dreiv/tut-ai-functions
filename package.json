@@ -1,0 +1,16 @@
+{
+  "name": "tut-ai-functions",
+  "private": true,
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "packageManager": "npm@11.12.1",
+  "scripts": {
+    "dev": "turbo dev",
+    "sync-contracts": "npm run build:contracts -w server"
+  },
+  "devDependencies": {
+    "turbo": "^2.10.1"
+  }
+}
